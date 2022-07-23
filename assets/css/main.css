@@ -1,16 +1,15 @@
 /* version 1.0.1 */
 
 body {
-margin: 0;
+margin: 101px 141px 101px 141px;
 padding: 0;
 background-color: #1A1A1A;
 line-height: 1.5;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
+font-family: Verdana, Geneva, sans-serif; 
 }
-h1, h2, h3, h4, h5, h6, h7, h8 {
+h1, h2, h3, h4, h5, h6, h7 {
 color: #B5E853;
 line-height: 1.5;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
 text-align: left;
 margin: 0 0 20px;
 }
@@ -18,7 +17,6 @@ p {
 color: #FFFFFF;
 padding-left: 30px;
 font-size: 15px;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
 }
 .hr {
 border: 0;
@@ -27,7 +25,6 @@ border-top: 2px dashed #B5E853;
 li {
 color: #FFFFFF;
 font-size: 15px;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
 }
 .button {
 text-decoration: none;
