@@ -142,3 +142,15 @@ ol {display: table; margin-left: 0; margin-right: auto; list-style-position: ins
    max-width: 100%;
    border: 0px solid #b4e853;
 }
+
+/* ---------BLOCK_IMAGES##FILL_THE_SCREEN_HOROZONALLY_END_TO_END-------------- */
+.BubblegumBlockImage {
+  padding: 0px;
+  margin: 0px;
+}
+.BubblegumBlockImage > img {
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+  border: 0px solid #b4e853;
+}
