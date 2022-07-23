@@ -116,3 +116,29 @@ ol {display: table; margin-left: 0; margin-right: auto; list-style-position: ins
 .topp {padding-top: 10px;}
 .left {padding-left: 30px}
 .mediumsize {font-size: 19px;}
+
+/* ----BEGiN_SARTUS_CUSTOM_MADE_THAKA_STYLE----- */
+.sixpanel {
+  align-items: stretch;
+  /* flex-flow: row nowrap; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  line-height: 0;
+  justify-content: center;
+  align-content: stretch;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+}
+
+ .sixpanel > div {
+  border: 1px solid #b4e853;
+  
+}
+
+.sixpanel > img {
+   display: block; 
+   object-fit: contain;
+   max-width: 100%;
+   border: 0px solid #b4e853;
+}
