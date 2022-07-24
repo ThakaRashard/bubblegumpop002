@@ -124,6 +124,7 @@ ol {display: table; margin-left: 0; margin-right: auto; list-style-position: ins
   justify-content: center;
   align-content: stretch;
   height: 100%;
+  max-width: 100%;
   display: grid;
   grid-template-columns: auto auto auto ;
 }
